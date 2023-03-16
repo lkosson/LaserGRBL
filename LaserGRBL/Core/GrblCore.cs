@@ -1555,7 +1555,7 @@ namespace LaserGRBL
 			if (JogEnabled)
 			{
 				mPrenotedJogSpeed = (fast ? 100000 : JogSpeed);
-				target = LimitToBound(target);
+				//target = LimitToBound(target);
 
 				if (SupportTrueJogging)
 					DoJogV11(target);
